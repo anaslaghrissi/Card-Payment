@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: sans-serif;
+}
+.app-container {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(#580e8f, #9200ff);
+}
+.top-box {
+  height: 150px;
+  background: #9100fb;
+  border-bottom-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  padding-top: 20px;
+}
+.left-icon {
+  float: left;
+  margin-left: 30px;
+}
+.right-icon {
+  float: right;
+  margin-right: 30px;
+}
+.middle-box {
+  height: 150px;
+  background: linear-gradient(#580e8f, #9200ff);
+  margin: -70px 30px 20px;
+  color: #fff;
+  text-align: center;
+  font-family: "rancho";
+  border-radius: 10px;
+}
+.middle-box h1 {
+  padding: 30px 0;
+  font-size: 50px;
+  font-weight: normal;
+}
+.middle-box h1 span {
+  font-size: 25px;
+  margin-left: 5px;
+  bottom: 18px;
+  position: relative;
+}
+.middle-box p {
+  font-size: 18px;
+}
+.bottom-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.payment-option-btn {
+  color: #fff;
+  font-size: 14px;
+  margin: 5px 30px;
+  height: 30px;
+  width: 290px;
+  background: #9100fb;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px #101b1b7d;
+  cursor: pointer;
+}
+.card-details {
+  background: #fff;
+  color: #555;
+  box-shadow: 0 10px 30px #101b1b7d;
+  margin: 50px 30px;
+  padding: 30px 20px;
+  border-radius: 5px;
+}
+.card-details p {
+  font-size: 18px;
+  font-family: "Poppins";
+}
+.card-details label {
+  font-size: 14px;
+  line-height: 20px;
+}
+.card-num-field-group {
+  margin-top: 20px;
+}
+.date-field-group {
+  margin-top: 15px;
+  display: inline-block;
+}
+.cvc-field-group {
+  margin-top: 15px;
+  display: inline-block;
+  float: right;
+}
+.date-field,
+.cvc-field {
+  width: 80px;
+}
+.card-details input {
+  border: 1px solid #ccc;
+  height: 20px;
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 10px;
+}
+.name-field,
+.card-num-field {
+  width: 100%;
+  font-size: 15px;
+}
+.card-details input::placeholder {
+  color: #ccc;
+  font-size: 14px;
+}
+.pay-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  margin-top: 20px;
+  height: 30px;
+  width: 270px;
+  background: #9100fb;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 0 10px 30px #101b1b7d;
+}
+
+@media screen and (min-width: 767px) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .app-container {
+    width: 500px;
+  }
+}
